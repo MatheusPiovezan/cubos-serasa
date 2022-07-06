@@ -1,0 +1,54 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 24px;
+
+    width: 80%;
+
+    gap: 32px;
+}
+
+.paid,
+.unpaid,
+.future {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 360px;
+    height: 111px;
+
+    border-radius: 30px;
+
+    gap: 54px;
+}
+
+.paid {
+    background-color: rgba(238, 246, 246, 1);
+}
+
+.unpaid {
+    background-color: rgba(255, 239, 239, 1);
+}
+
+.future {
+    background-color: rgba(252, 246, 220, 1);
+}
+
+.paid div,
+.unpaid div,
+.future div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 130%;
+}

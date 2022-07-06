@@ -1,0 +1,150 @@
+.container-modal-edit-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.container-modal-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 56px;
+
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.modal-edit-tile-iconclose img {
+    position: relative;
+
+    top: -40px;
+    right: -320px;
+
+    cursor: pointer;
+}
+
+.modal-edit-tile-iconclose h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: #343447;
+}
+
+.icon-close-modal-edit {
+    display: flex;
+    align-items: left;
+}
+
+.modal-form-edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-edit-cpf-tel {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 24px;
+}
+
+.modal-edit-cpf-tel :first-child,
+.modal-edit-cpf-tel :last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form-edit label {
+    margin-bottom: 6px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #344054;
+}
+
+.modal-form-edit input {
+    all: unset;
+
+    margin-bottom: 20px;
+    padding: 10px 14px;
+
+    width: 379px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.1);
+    border-radius: 8px;
+}
+
+.modal-form-edit input:focus {
+    border: 1px solid #DA0175;
+    box-shadow: 0 1px 2px #DA0175;
+}
+
+.modal-edit-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-edit-password .input-password {
+    position: relative;
+}
+
+.modal-edit-cpf-tel input {
+    width: 163px;
+}
+
+.modal-edit-password .eyes {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.modal-form-edit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-form-edit-btn button {
+    all: unset;
+
+    width: 160px;
+    height: 33px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8F8F9;
+    text-align: center;
+
+    color: #ffffff;
+    background: #DA0175;
+    border-radius: 10px;
+    cursor: pointer;
+}

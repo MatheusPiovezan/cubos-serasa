@@ -1,0 +1,199 @@
+.modal-register-client-backgorund {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.container-modal-register-client {
+    padding: 40px 56px;
+
+    width: 600px;
+
+    font-family: 'Nunito', sans-serif;
+
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.modal-register-client-title {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+}
+
+.modal-register-client-title :first-child {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.modal-register-client-iconclose img {
+    position: relative;
+
+    top: -10px;
+    right: -17px;
+
+    cursor: pointer;
+}
+
+.modal-register-client-title h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+
+    color: #3F3F55;
+}
+
+.modal-register-client-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-register-client-form label {
+    margin: 8px 0 6px 0;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #3F3F55;
+}
+
+.modal-register-client-form input {
+    all: unset;
+
+    padding: 10px 14px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.1);
+    border-radius: 8px;
+}
+
+.modal-register-client-form input:focus {
+    border: 1px solid #DA0175;
+    box-shadow: 0 1px 2px #DA0175;
+}
+
+.modal-register-client-cpf-tel,
+.modal-register-client-address,
+.modal-register-client-city-uf {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 24px;
+}
+
+.modal-register-client-cpf-tel :first-child,
+.modal-register-client-cpf-tel :last-child,
+.modal-register-client-address :first-child,
+.modal-register-client-address :last-child,
+.modal-register-client-city-uf :first-child,
+.modal-register-client-city-uf :last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-register-client-city input {
+    width: 270px;
+}
+
+.modal-register-client-uf input {
+    width: 130px;
+}
+
+.width-cpf-tel-cep-dis input {
+    width: 200px;
+}
+
+.modal-register-client-btn {
+    display: flex;
+    align-items: center;
+
+    margin-top: 50px;
+
+    gap: 24px;
+}
+
+.modal-register-client-btn button {
+    all: unset;
+
+    padding: 4px 0;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal-register-client-btn-one button {
+    width: 231px;
+
+    background-color: #F8F8F9;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+}
+
+.modal-register-client-btn-two button {
+    width: 231px;
+
+    background: #DA0175;
+    color: #F8F8F9;
+    border: 1px solid #DEDEE9;
+}
+
+.modal-register-client-btn button:hover {
+    transition: .5s;
+    box-shadow: 3px 2px 3px rgba(16, 24, 40, 0.1);
+}
+
+.modal-register-client-btn-one button:hover {
+    color: #ffffff;
+    background-color: #65aa8c;
+}
+
+.modal-register-client-btn-two button:hover {
+    background-color: #75003B;
+}
+
+input::placeholder {
+    color: #9B9BB2;
+}
+
+.modal-register-client-form span {
+    margin: 0 0 0 5px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: #E70000;
+}
+
+.borda_ativa {
+    border: 1px solid red !important;
+    box-shadow: none !important;
+}
