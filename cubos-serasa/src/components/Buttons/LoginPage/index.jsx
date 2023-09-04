@@ -29,12 +29,12 @@ export default function ContainedButtons({ form }) {
       setItem(`userEmail`, user_email);
       setItem(`userCpf`, user_cpf);
       setItem(`setPhoneNumber`, user_phone_number);
-      await handleListCustomers();
-      await handleListCharges();
+      handleListCustomers();
+      handleListCharges();
       handleChangerStatus();
       handleChangerBillings();
+      navigate("/dashboard");
       toast.success(success.usersLoggedInSuccessfully);
-      navigate(`/dashboard`);
     } catch (error) {
       toast.error(erro.loginWrong);
     }
