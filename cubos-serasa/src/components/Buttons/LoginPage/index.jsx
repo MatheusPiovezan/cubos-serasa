@@ -15,7 +15,9 @@ export default function ContainedButtons({ form }) {
   const { handleChangerStatus, handleChangerBillings } = useFunction();
   const { handleListCustomers, handleListCharges } = useRequest();
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
     await schemaLogin.validate(form);
     try {
       const response = await api.post(`/login`, { ...form });
@@ -43,8 +45,9 @@ export default function ContainedButtons({ form }) {
   return (
     <Stack direction="row" spacing={2}>
       <Button
+        type="submit"
         variant="contained"
-        onClick={handleSubmit}
+        onClick={(e) => handleSubmit(e)}
         sx={{
           padding: "4px 55px",
           borderRadius: "10px",
