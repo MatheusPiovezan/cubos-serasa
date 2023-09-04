@@ -1,7 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
 export default axios.create({
-    baseURL: 'https://cubos-serasa-spc.herokuapp.com',
-    timeout: 100000,
-    headers: { 'Content-Type': 'application/json' }
+  baseURL: "https://backcubos-1-n6836554.deta.app",
+  headers: { "Content-Type": "application/json" },
 });
